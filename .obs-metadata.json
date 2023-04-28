@@ -1,0 +1,120 @@
+{
+  "meta": {},
+  "data": {
+    "id": "full-stack-metaflow",
+    "title": "Week 2: Designing Machine Learning Workflows",
+    "defaultFilePath": "./flows/local/tree_branch_flow.py",
+    "showPrimaryView": true,
+    "numbered": true,
+    "sections": [
+      {
+        "title": "The Unreasonable Effective of Branching Flows",
+        "description": "",
+        "path": "./flows/local/tree_branch_flow.py",
+        "doc": "./explainers/tree-branch.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/tree_branch_flow.py",
+          "label": "Run Flow"
+        }
+      },
+      {
+        "title": "More EDA on the Titanic dataset",
+        "description": "",
+        "path": "./notebooks/week-2-branch.ipynb",
+        "doc": "./explainers/eda-2.html"
+      },
+      {
+        "title": "Baseline Model",
+        "description": "",
+        "path": "./flows/local/titanic_flow_1.py",
+        "doc": "./explainers/baseline.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/titanic_flow_1.py",
+          "label": "Run Flow"
+        }
+      },
+      {
+        "title": "Rule-based Model",
+        "description": "",
+        "path": "./flows/local/titanic_flow_2.py",
+        "doc": "./explainers/rule-based-model.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/titanic_flow_2.py",
+          "label": "Run Flow"
+        }
+      },
+      {
+        "title": "Branching Flow",
+        "description": "",
+        "path": "./flows/local/titanic_flow_3.py",
+        "doc": "./explainers/branch.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/titanic_flow_3.py",
+          "label": "Run Flow"
+        }
+      },
+      {
+        "title": "Compare ML Model to baseline",
+        "description": "",
+        "path": "./notebooks/week-2-compare-models.ipynb",
+        "doc": "./explainers/compare-models.html"
+      },
+      {
+        "title": "Data preparation in your ML workflow",
+        "description": "",
+        "path": "./flows/local/titanic_flow_4.py",
+        "doc": "./explainers/data-prep-ml-workflow.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/titanic_flow_4.py",
+          "label": "Run Flow"
+        }
+      },
+      {
+        "title": "Iterative approach to building ML workflows",
+        "description": "",
+        "path": "./notebooks/week-2-iterate.ipynb",
+        "doc": "./explainers/iterative-ml.html"
+      },
+      {
+        "title": "Hyperparameter search in your ML workflow",
+        "description": "",
+        "path": "./flows/local/titanic_flow_5.py",
+        "doc": "./explainers/hpo.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/titanic_flow_5.py",
+          "label": "Run Flow"
+        }
+      },
+      {
+        "title": "Analyze training results",
+        "description": "",
+        "path": "./notebooks/week-2-final-analysis.ipynb",
+        "doc": "./explainers/analyze-training-results.html"
+      },
+      {
+        "title": "Scaling to the cloud",
+        "description": "",
+        "path": "./flows/cloud/titanic_flow_5_cloud.py",
+        "doc": "./explainers/cloud.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/cloud/titanic_flow_5_cloud.py",
+          "label": "Run Flow"
+        }
+      },
+      {
+        "title": "Week 2 Project",
+        "description": "",
+        "path": "./project/template.ipynb",
+        "doc": "./explainers/project.html"
+      }
+    ],
+    "links": []
+  }
+}
